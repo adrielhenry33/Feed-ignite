@@ -1,0 +1,7 @@
+.header
+{
+    background: #333;
+    height: 80px;
+}
+/*Queremos que a estilizacao do cabecalho afete apenas o cabecalho
+  por isso ela esta em uma pasta diferente e aprensenta o nome module.css*/
