@@ -9,7 +9,6 @@ export function App() {
     <div>
       <Header />
 
-
       <div className={styles.wrapper}>
        <aside> 
         sidebar
@@ -23,6 +22,7 @@ export function App() {
           author="Gabriel Buzzi"
           content="Um novo post muito legal"
         />
+        <h1>teste brnch</h1>
     
        </main>
       </div>
