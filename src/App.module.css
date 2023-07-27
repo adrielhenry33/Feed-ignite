@@ -1,0 +1,11 @@
+.wrapper
+{
+    max-width: 70rem;/*largura maxima que vai do sidbar ate o outro lado do feed*/
+    margin: 2rem auto;/*altura do texo*/
+    padding: 0 2rem;/*coloca os dois textos a 32 pixel para a direita*/
+
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;/*distancia entre sidbar e o feed*/
+    align-items: flex-start ;
+}

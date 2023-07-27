@@ -1,5 +1,34 @@
+:root
+{
+   --white: #ffffff;
+   --gray-100: #e1e1e6;/*paleta com as cores as variacoes das cores do feed*/
+   --gray-300: #c4c4cc;
+   --gray-400: #8d8d99;
+   --gray-600: #323238;
+   --gray-700: #29292e;
+   --gray-800: #202024;
+   --gray-900: #121214;
+
+   --gren-500: #00875f;
+}
+
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: 0;
+}
+
 body
 {
-    background-color: #121214;
-    color: #fff
-} 
+   background: var(--gray-900);/*cor de fundo */
+   color: var(--gray-300);
+   -webkit-font-smoothing: antialiased;/*padronizacao de fonte*/
+}
+
+body, input, textarea, button
+{
+   font-family:'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 1rem;/*uma unidade relativa 1rem = 16 pixels, para o usuario nao aumentar nem diminuir a fonte*/
+}

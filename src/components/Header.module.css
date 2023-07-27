@@ -1,7 +1,20 @@
 .header
 {
-    background: #333;
-    height: 80px;
+    background: var(--gray-800);/*cor de fundo do cabecalho*/
+    display:flex;             
+    justify-content: center;    /*centralizacao da conteudo do cabecalho*/
+    padding: 1.25rem 0;         /*altura em que o titulo do cabecalho esta, posso ver essa altura no figma*/
+}
+
+.header img
+{
+    height: 2rem; /*estilizacao da imagem do ignite*/
 }
 /*Queremos que a estilizacao do cabecalho afete apenas o cabecalho
-  por isso ela esta em uma pasta diferente e aprensenta o nome module.css*/
+por isso ela esta em uma pasta diferente e aprensenta o nome module.css*/
+
+/*Display flex:
+Quando colocamos essa propriedade em um elemento, 
+esse elemento se torna um flex container, 
+ a partir daí podemos manipular todos os elementos 
+filhos desse flex container com propriedades novas.*/
