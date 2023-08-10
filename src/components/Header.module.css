@@ -8,7 +8,7 @@
 
 .header img
 {
-    height: 2rem; /*estilizacao da imagem do ignite*/
+    height: 2rem; /*estilizacao dna imagem do ignite*/
 }
 /*Queremos que a estilizacao do cabecalho afete apenas o cabecalho
 por isso ela esta em uma pasta diferente e aprensenta o nome module.css*/
